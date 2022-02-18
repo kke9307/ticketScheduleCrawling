@@ -36,12 +36,6 @@ public class PlantController {
 		String ult = ServletRequestUtils.getStringParameter(request, "url");
 		String URL = "https://www.simpol.co.kr/front/productlist.php?code=003";
 		Map<String,Object> dataMap = new HashMap<String,Object>();
-		/*
-		 * try { //Desktop.getDesktop().browse(new
-		 * URI("https://www.simpol.co.kr/front/productlist.php?code=003")); } catch
-		 * (URISyntaxException e) { // TODO Auto-generated catch block
-		 * e.printStackTrace(); }
-		 */
 		try {
 			ArrayList<String> plant = new ArrayList<String>(); 
 			ArrayList<String[]> plantList = new ArrayList<String[]>(); 
